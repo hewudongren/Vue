@@ -1,0 +1,24 @@
+{
+  "name": "web-node-wrapper",
+  "version": "1.0.0",
+  "description": "Front-end web node wrapper",
+  "author": "gill gong <gill@jwis.cn|gillmstar@163.com>",
+  "private": true,
+  "scripts": {
+    "start": "node devServer.js"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^2.11.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-middleware": "^1.10.0",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-hot-middleware": "^2.25.0"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
